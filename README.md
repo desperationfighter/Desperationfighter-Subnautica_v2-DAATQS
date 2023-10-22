@@ -16,7 +16,8 @@ So for example it is possible to disable your list temporary while you transfer 
 
 Adding your Own Techtype to the Mods:
 
-    Go to the Predelivered "AllowList.json" in the Modfolder
+    Go to the BepInEx Config Folder after first Game start with Mod. 
+    There you will see a "AllowList.json" File.
     Open it with a text editor while the game is closed.
     Add your own Techtypes to the List (see: https://subnautica.fandom.com/wiki/Spawn_IDs)
 
