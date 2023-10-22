@@ -19,6 +19,8 @@ namespace DAATQS.Patches
         [HarmonyPrefix]
         private static bool Prefix(QuickSlots __instance, InventoryItem item, ref int __result)
         {
+            ICM.Load();
+
             //check if there is a empty slot
             int firstEmpty = __instance.GetFirstEmpty();
             if (firstEmpty == -1)

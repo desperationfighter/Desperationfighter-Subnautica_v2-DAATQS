@@ -9,7 +9,7 @@ namespace DAATQS.Managment
         {
         }
 
-        public List<string> TechType = new List<string>();
+        public List<string> TechType = new List<string>() { "builder", "Knife", "Seaglide", "LaserCutter", "Flare", "PropulsionCannon", "HeatBlade", "RepulsionCannon", "fireextinguisher", "airbladder", "flashlight", "divereel", "welder", "scanner", "stasisrifle" };
     }
 
 }
